@@ -48,10 +48,6 @@
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
 
 /* и элемента с модификатором вида ключ-значение */
 
@@ -122,6 +118,10 @@
   font-weight: bold;
 }
 
+.digits {
+  padding-bottom: 100px;
+}
+
 .section-title {
   margin: 100px auto 20px;
   width: 60%;
@@ -187,6 +187,7 @@
 }
 
 .feynman__subtitle {
+  margin: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -240,6 +241,7 @@
 }
 
 .footer__columns {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -278,6 +280,7 @@
 }
 
 .footer__column-heading {
+  margin-top: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
