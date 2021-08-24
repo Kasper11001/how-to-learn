@@ -3,3 +3,8 @@
   color: white;
   margin-bottom: 16px;
 }
+
+.footer__column-link:hover {
+  opacity: .7;
+  transition: .2s;
+}
